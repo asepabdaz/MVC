@@ -17,7 +17,7 @@ class HomeController: UICollectionViewController ,UICollectionViewDelegateFlowLa
         print("Coders")
         navigationItem.title = "Home"
         print("Test")
-        
+        print("Blank")
         collectionView?.backgroundColor = UIColor.white
         
         collectionView?.register(VideoClass.self, forCellWithReuseIdentifier: "callid")
