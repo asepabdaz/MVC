@@ -14,6 +14,7 @@ class HomeController: UICollectionViewController ,UICollectionViewDelegateFlowLa
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.title = "Home"
+        print("Test")
         
         collectionView?.backgroundColor = UIColor.white
         
