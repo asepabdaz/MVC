@@ -14,7 +14,7 @@ class HomeController: UICollectionViewController ,UICollectionViewDelegateFlowLa
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.title = "Home"
-        
+        print("Master")
         collectionView?.backgroundColor = UIColor.white
         
         collectionView?.register(VideoClass.self, forCellWithReuseIdentifier: "callid")
