@@ -13,9 +13,11 @@ class HomeController: UICollectionViewController ,UICollectionViewDelegateFlowLa
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        navigationItem.title = "Home"
-        print("Master")
+        
         print("Coders")
+        navigationItem.title = "Home"
+        print("Test")
+        print("Blank")
         collectionView?.backgroundColor = UIColor.white
         
         collectionView?.register(VideoClass.self, forCellWithReuseIdentifier: "callid")
